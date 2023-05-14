@@ -1,7 +1,7 @@
-# Airlines_Passenger_Satisfaction
-customer satisfaction plays a crucial role in determining business performance and serves as a strategic tool for gaining a competitive edge. This study uses machine learning models to predict the overall satisfaction of passengers with the full service provided by the airline. We aim to select the important factors that affect passenger satisfaction using RFECV() feature selection tool in Scikit-Learn to identify the optimum number of features to obtain the highest accuracy score. We pass in DecisionTreeClassifier() to use as the estimator.
+# Airlines Passenger Satisfaction
+Customer satisfaction plays a crucial role in determining business performance and serves as a strategic tool for gaining a competitive edge. This study uses machine learning models to predict the overall satisfaction of passengers with the full service provided by the airline. We aim to select the important factors that affect passenger satisfaction using RFECV() feature selection tool in Scikit-Learn to identify the optimum number of features to obtain the highest accuracy score. We pass in DecisionTreeClassifier() to use as the estimator.
 
-## Data Source
+### Data Source
 Data used in this study are the passenger satisfaction data set of an American airline on Kaggle (https://www.kaggle.com/binaryjoker/airline-passenger-satisfaction) 
 
 ### Data Preprocessing
@@ -22,5 +22,6 @@ The accuracy score of the model is 87.01%.
 - Young adult and elderly people are neutral or dissatisfied with the flight service whereas adult are more satisfied. Adult are more likely to return than passenger of other age groups.
 - The most important type of service is Online boarding, followed by flight distance, In-flight entertainment, ease of online booking and leg room service.
 
+![Getting Started](./satisfaction.png)
 
 
